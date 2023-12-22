@@ -144,3 +144,19 @@ body {
 form {
   margin-top: 20px;
 }
+
+#youtubeLink {
+  width: 70%;       /* Width of the input field */
+  padding: 13px;    /* Padding inside the input field */
+  font-size: 12px;  /* Font size of the text inside the input field */
+}
+
+#getIDandThumbnail {
+  width: 150px;             /* Width of the button */
+  height: 50px;             /* Height of the button */
+  background-color: lightblue; /* Background color */
+  font-size: 18px;          /* Font size */
+  border: none;             /* Removes the default border */
+  cursor: pointer;          /* Changes cursor to pointer on hover */
+  /* Add any additional styles you need */
+}
