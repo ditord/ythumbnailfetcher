@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>YouTube Video ID Extractor</title>
-</head>
-<body>
-    <h1>YouTube Video ID Extractor</h1>
-    <form id="youtubeForm">
-        <input type="text" id="youtubeLink" placeholder="Enter YouTube link here">
-        <button type="submit">Get Video ID</button>
-    </form>
-    <p id="videoIdOutput"></p>
-    <p id="imageUrlOutput"></p>
-    <img id="youtubeImage" style="max-width: 500px; display: none;"> <!-- Image element -->
-    <br>
-    <a id="downloadLink" style="display: none;"><button>Download Image</button></a> <!-- Download button -->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2YZ7RWL4Y8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    <script src="script.js"></script>
+        gtag('config', 'G-2YZ7RWL4Y8');
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="cyberhubamlogo.jpg" alt="">
+        </div>
+
+        <h1>YouTube Video ID Extractor</h1>
+        <form id="youtubeForm">
+            <input type="text" id="youtubeLink" placeholder="Enter YouTube link here">
+            <button type="submit">Get Video ID</button>
+        </form>
+        <p id="videoIdOutput"></p>
+        <p id="imageUrlOutput"></p>
+        <img id="youtubeImage" style="max-width: 500px; display: none;"> <!-- Image element -->
+        <br>
+        <a id="downloadLink" style="display: none;"><button>Download Image</button></a> <!-- Download button -->
+
+        <script src="script.js"></script>
+    </div>
 </body>
+
 </html>
